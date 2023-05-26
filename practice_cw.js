@@ -66,3 +66,13 @@ function swap(b) {
 var b = [1, 2, 3, 4, 5, 6];
 var output1 = swap(b);
 console.log(output1);
+
+//write a program to print negative numbers in array
+var c = [-3, 6, -1, 5, -9, 9, 11, -12];
+for (var i = 0; i < c.length; i++) {
+    if (c[i] < 0) {
+        console.log(c[i]);
+    } else {
+        console.log(c[i]);
+    }
+}
